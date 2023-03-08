@@ -1,2 +1,1 @@
-0   string  SCHOOL  School data file
-!:mime School
+0   string  SCHOOL  !mime application/school-data
