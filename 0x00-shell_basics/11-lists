@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -la; (cd ..; ls -la); (cd /boot; ls -la)
+ls -la | tee /dev/tty | (cd ..; ls -la | tee /dev/tty) | (cd /boot; ls -la)
