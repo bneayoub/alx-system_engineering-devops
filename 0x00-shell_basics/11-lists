@@ -1,0 +1,12 @@
+#!/bin/bash
+
+# list files in current directory
+ls -la
+
+# list files in parent directory
+cd ..
+ls -la
+
+# list files in /boot directory
+cd /boot
+ls -la
