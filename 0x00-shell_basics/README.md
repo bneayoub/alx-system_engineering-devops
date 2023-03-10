@@ -19,7 +19,7 @@
 <p>14 script that copies all the HTML files from the current working directory to the parent of the working directory, but only copy files that did not exist in the parent of the working directory or were newer than the versions in the parent of the working directory. You can consider that all HTML files have the extension .html : <strong>cp -nu .html ..</strong></p>
 <p>15. script that moves all files beginning with an uppercase letter to the directory /tmp/u. : <strong>mv [[:upper:]] /tmp/u&nbsp;</strong></p>
 <p>16 script that deletes all files in the current working directory that end with the character ~ :<strong>&nbsp;rm *~&nbsp;</strong></p>
-<p>&nbsp;17. script that creates the directories welcome/, welcome/to/ and welcome/to/school in the current directory : <strong>mkdir -p welcome/to/school&nbsp;</strong></p>
+<p>17. script that creates the directories welcome/, welcome/to/ and welcome/to/school in the current directory : <strong>mkdir -p welcome/to/school&nbsp;</strong></p>
 <p>18.-Command that lists all the files and directories of the current directory :<strong>&nbsp;ls -amvp</strong></p>
 <p>19-Magic file school.mgc that can be used with the command file to detect School data files. School data files always contain the string SCHOOL at offset 0 : <strong>0 string SCHOOL School data !:mime School</strong>&nbsp;and then convert it into executable using&nbsp;: <strong>file -C -m school.mgc </strong></p>
 <p><br></p>
