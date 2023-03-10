@@ -1,1 +1,5 @@
-this repo is for some basic shell commands
+#BASIC SHELL COMMANDS
+
+##Shell Basics
+##Shell Permissions
+##Shell I/O Coming soon ...
