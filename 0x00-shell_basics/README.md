@@ -1,7 +1,7 @@
 <h1 align=center> Shell basics </h1>
 
+<p style="text-align: center;"><strong>DISCLAIMER:</strong> for all tasks, dont forget chmod u+x or chmod +x filename to transform your file into an executable before adding, commitig and pushin</p>
 
-<p>DISCLAIMER: for all tasks, dont forget chmod u+x or chmod +x filename to transform your file into an executable before adding, commitig and pushin</p>
 <p>0.Script that prints the absolute path name of the current working directory : <strong>pwd</strong></p>
 <p>1.Display the contents list of your current directory :<strong>&nbsp;</strong><strong>ls</strong></p>
 <p>2.script that changes the working directory : <strong>cd</strong>&nbsp;</p>
