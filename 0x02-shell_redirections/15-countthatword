@@ -1,2 +1,2 @@
 #!/bin/bash
-wc -l $(grep -l 'bin' /etc/passwd)
+grep -l 'bin' /etc/passwd | xargs wc -l
