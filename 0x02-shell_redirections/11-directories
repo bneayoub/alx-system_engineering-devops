@@ -1,0 +1,2 @@
+#!/bin/bash
+find . -type d -mindepth 1 -maxdepth 1 | ws -l
