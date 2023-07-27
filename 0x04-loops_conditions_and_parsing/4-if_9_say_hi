@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+# Prints Best School 10 times
+# and Hi after the 9
+c=0
+while [ $c -lt 10 ]; do
+	echo "Best School"
+	if [ $c -eq 8 ]; then
+		echo "Hi"
+	fi
+	(( c++ ))
+done

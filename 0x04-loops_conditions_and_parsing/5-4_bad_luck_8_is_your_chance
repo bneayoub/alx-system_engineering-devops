@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+# Prints chinese bad and good luck number
+c=0
+while [ $c -lt 10 ]; do
+	if [ $c -eq 3 ]; then
+		echo "bad luck"
+	elif [ $c -eq 7 ]; then
+		echo "good luck"
+	else
+		echo "Best School"
+	fi
+	(( c++ ))
+done

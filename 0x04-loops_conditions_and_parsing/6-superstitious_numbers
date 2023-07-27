@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+# Displays numbers from 1 to 20 in addition to:
+#   "bad luck from China" for the 4th iteration
+#   "bad luck from Japan" for the 9th iteration
+#   "bad luck from Italy" for the 17th loop iteration
+c=1
+while [ $c -lt 21 ]; do
+	case $c in
+		4) echo "bad luck from China";;
+		9) echo "bad luck from Japan";;
+		17) echo "bad luck from Italy";;
+		*) echo $c;;
+	esac
+	(( c++ ))
+done
