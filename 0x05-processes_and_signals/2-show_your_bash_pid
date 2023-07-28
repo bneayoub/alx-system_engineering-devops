@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# displays rnning processe
+ps -aux | grep bash

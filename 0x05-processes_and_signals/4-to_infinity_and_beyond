@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+# dispalys to infinity 
+while true
+do
+  echo "To infinity and beyond"
+  sleep 2
+done
+
