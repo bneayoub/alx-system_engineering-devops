@@ -1,6 +1,6 @@
-# create a process named killmenow 
+# kill process killmenow
 
-exec { 'pkill killmenow' :
-    path    => '/bin/',
-    command => 'pkill killmenow',
-    }
+exec { 'pkill':
+  command  => 'pkill killmenow',
+  provider => 'shell',
+}
